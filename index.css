@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('fonts/digital-7.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(20, 30, 40);
+}
+
+.container {
+    background-color: rgb(53, 65, 75);
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.team {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    align-items: center;
+    line-height: 35.89px;
+}
+
+.score {
+    font-size: 90px;
+    color: #F94F6D;
+    font-weight: 400;
+    background-color: #080001;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    width: 155px;
+    text-align: center;
+    font-family: 'Digital-7', Orbitron;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.new-game-container {
+    margin-top: 10px;
+}
+
+.new-game-btn {
+    background-color: rgb(194, 46, 46);
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.new-game-btn:hover {
+    background: darkred;
+    color: white;
+    transform: scale(1.05);
+}
+
